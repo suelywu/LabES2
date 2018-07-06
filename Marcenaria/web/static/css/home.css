@@ -1,0 +1,53 @@
+html, body {
+    widht: 100%;
+    height: 100%;
+}
+
+.botao {
+    background-color: gray;
+    border: none;
+    padding: 10px;
+    width: 49.5%;
+}
+
+.invisivel {
+    display: none;
+}
+
+.visivel {
+    display: block;
+}
+
+.escolhido {
+    background-color: green;
+}
+
+.nao-escolhido {
+    background-color: gray;
+}
+
+.conteudo {
+    width: 100%;
+}
+
+ul, li {
+    list-style: none;
+    margin-left: 20%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+#div-orcamentos, #div-pedidos {
+    text-align: left;
+}

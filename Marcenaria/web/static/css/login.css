@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+}
+
+fieldset {
+    width: 70%;
+    margin: auto;
+}
+
+label.col1 {
+    display: inline-block;
+    width: 10%;
+    margin: 10px;
+}
+label.col2 {
+    display: inline-block;
+    color: gray;
+    width: 30%;
+    margin: 10px;
+}

@@ -1,0 +1,34 @@
+html, body {
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+    clear: both;
+}
+
+
+
+#main-content {
+    text-align: center;
+}
+
+#pedido-content {
+    padding-left: 30%;
+}
+
+label {
+    float: left;
+}
+
+
+
+@media print {
+    #main-content {
+        text-align: left;
+    }
+
+    #pedido-content {
+        padding-left: 0%;
+    }
+}
