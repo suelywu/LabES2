@@ -1,0 +1,17 @@
+@font-face {
+    font-family: better-phoenix;
+    src: url('fonts/better_phoenix_sample.otf')
+    format('opentype');
+    src: url('fonts/better_phoenix_sample.ttf')
+    format('truetype');
+}
+
+h1.page-title {
+    font-family: better-phoenix, fantasy;
+    font-size: 300%;
+}
+
+p.error-message {
+    color: red;
+    text-align: center;
+}
